@@ -63,22 +63,27 @@ const Resume = () => {
         </h1>
         <ExperienceCard
           company="Audioworks"
-          date="May - Aug 2024"
-          position="Web & Mobile Developer"
+          date="May - Aug 2023"
+          position="Web & Mobile Developer Intern"
           description="Led projects to enhance and develop core features, 
           including an interactive music player on the mobile app and its 
           integration with paginated user feeds for our social media platform, Soundsunite."
-          skills={["React", "React Native", "Node", "Express"]}
+          skills={[
+            "React",
+            "React Native",
+            "Node",
+            "Express",
+            "React Native Track Player",
+          ]}
         />
 
         <ExperienceCard
-          company="Audioworks"
-          date="May - Aug 2024"
-          position="Web & Mobile Developer"
-          description="Led projects to enhance and develop core features, 
-          including an interactive music player on the mobile app and its 
-          integration with paginated user feeds for our social media platform, Soundsunite."
-          skills={["React", "React Native", "Node", "Express"]}
+          company="Verticalscope"
+          date="Sep - Dec 2022"
+          position="Software Engineer Intern"
+          description="Worked in a team to manage three large fitness websites hosting blogs, products, and forums. 
+          Also collaborated with others to create a POC for decoupling the sites using Strapi as a CMS."
+          skills={["Wordpress", "PHP", "Typescript", "Strapi"]}
         />
 
         <ExperienceCard

@@ -59,7 +59,7 @@ const Resume = () => {
       </section>
       <section className="mb-24 text-neutral-400 leading-relaxed ">
         <h1 className="font-bold text-3xl text-neutral-100 mb-8">
-          Some Recent Experience:
+          Relevant Experience:
         </h1>
         <ExperienceCard
           company="Audioworks"

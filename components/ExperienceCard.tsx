@@ -19,7 +19,7 @@ const ExperienceCard = ({
       <div>
         <h1 className="text-xl font-bold mb-1 text-neutral-200">{company}</h1>
         <h3 className="text-sm mb-3 text-neutral-200">{date}</h3>
-        <div className="mb-5 h-[1px] bg-gradient-to-r from-neutral-100 to-neutral-950"></div>
+        <div className="mb-5 h-[1px] bg-gradient-to-r from-neutral-950 via-neutral-100 to-neutral-950 animate-gradient-slow bg-[length:200%_200%]"></div>
         <h2 className="text-base font-bold mb-2 text-neutral-200">
           {position}
         </h2>

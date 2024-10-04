@@ -2,6 +2,7 @@
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 import React, { useEffect, useRef } from "react";
 import ExperienceCard from "./ExperienceCard";
+import ProjectCard from "./ProjectCard";
 
 const Resume = () => {
   const mainDivRef = useRef<HTMLDivElement>(null);
@@ -43,8 +44,8 @@ const Resume = () => {
         </p>
 
         <p className="mb-6">
-          Other than building apps, I also love travelling, reading, hanging out
-          with friends, and{" "}
+          Other than building apps, I also love exploring the world, reading a
+          new book, hanging out with friends, and{" "}
           <a
             className="underline text-neutral-100 hover:text-lg transition-all ease-in-out duration-200"
             href="https://www.strava.com/athletes/138075895"
@@ -56,10 +57,9 @@ const Resume = () => {
           </a>
         </p>
       </section>
-
-      <section>
+      <section className="mb-24 text-neutral-400 leading-relaxed ">
         <h1 className="font-bold text-3xl text-neutral-100 mb-8">
-          Some of my recent experience:
+          Some Recent Experience:
         </h1>
         <ExperienceCard
           company="Audioworks"
@@ -92,18 +92,56 @@ const Resume = () => {
         />
 
         <a
-          className=" text-neutral-100 hover:text-lg transition-all ease-in-out duration-200"
+          className=" text-neutral-100 hover:text-lg hover:size-7 transition-all ease-in-out duration-200"
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="mt-10 flex flex-row gap-2">
-            You can view my full resume here{" "}
-            <ArrowTopRightOnSquareIcon className="size-6" />
+          <div className="mt-10 font-bold flex flex-row gap-2">
+            View my full resume here{" "}
+            <ArrowTopRightOnSquareIcon className="size-5" />
           </div>
         </a>
       </section>
 
+      <section className="mb-24">
+        <h1 className="font-bold text-3xl text-neutral-100 mb-8">
+          My Favourite Projects:
+        </h1>
+        <ProjectCard
+          name="Workout Tracker"
+          imageSrc="/workout_tracker.png"
+          link="https://github.com/RCopJr/workout-tracker"
+          description="Working on a mobile-friendly web clone of the Strong app in React"
+          skills={["MongoDB", "Express", "React", "Node"]}
+        />
+        <ProjectCard
+          name="Recipe Finder"
+          imageSrc="/recipe_finder.png"
+          link="https://github.com/RCopJr/recipe-finder"
+          description="Working on a mobile-friendly web clone of the Strong app in React"
+          skills={["MongoDB", "Express", "React", "Node"]}
+        />
+        <ProjectCard
+          name="Portfolio"
+          imageSrc="/portfolio.png"
+          link="https://github.com/RCopJr/portfolio"
+          description="Working on a mobile-friendly web clone of the Strong app in React"
+          skills={["React", "Tailwind", "Next"]}
+        />
+
+        <a
+          className=" text-neutral-100 hover:text-lg hover:size-7 transition-all ease-in-out duration-200"
+          href="https://github.com/RCopJr"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="mt-10 font-bold flex flex-row gap-2">
+            Checkout my github for more!
+            <ArrowTopRightOnSquareIcon className="size-5" />
+          </div>
+        </a>
+      </section>
       {/* Simulating long content */}
       {/* {[...Array(50)].map((_, i) => (
         <div key={i} className="my-4">

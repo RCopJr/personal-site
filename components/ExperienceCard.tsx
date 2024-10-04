@@ -1,20 +1,37 @@
 import React from "react";
+import SkillBubble from "./SkillBubble";
 
-export default function Card() {
+const ExperienceCard = ({
+  company = "Audioworks",
+  position = "Web and Mobile Developer Intern",
+  date = "May - Aug 2024",
+  description = "Worked on their mobile and web social media platform Sounds unite",
+  skills = ["React", "Javascript"],
+}: {
+  company: string;
+  position: string;
+  date: string;
+  description: string;
+  skills: string[];
+}) => {
   return (
-    <div className="mb-8 rounded-xl shadow-lg border border-slate-500 p-6">
+    <div className="mb-8 rounded-xl shadow-lg p-6 bg-gradient-to-r from-neutral-900 to-neutral-950">
       <div>
-        <h2 className="text-2xl font-bold mb-2 text-slate-200">
-          Beautiful Card Title
+        <h1 className="text-xl font-bold mb-1 text-neutral-200">{company}</h1>
+        <h3 className="text-sm mb-3 text-neutral-200">{date}</h3>
+        <div className="mb-5 h-[1px] bg-gradient-to-r from-neutral-100 to-neutral-950"></div>
+        <h2 className="text-base font-bold mb-2 text-neutral-200">
+          {position}
         </h2>
-        <p className="text-gray-600 mb-4">
-          This is a description of the card. It gives some insight into the
-          content and encourages users to engage.
-        </p>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-          Learn More
-        </button>
+        <p className="text-neutral-400 mb-4">{description}</p>
+        <div className="flex flex-wrap gap-2">
+          {skills.map((skill) => (
+            <SkillBubble skill={skill} />
+          ))}
+        </div>
       </div>
     </div>
   );
-}
+};
+
+export default ExperienceCard;

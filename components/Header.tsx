@@ -21,11 +21,11 @@ const Header = () => {
 
   return (
     <header ref={headerRef} className="py-24">
-      <h1 className="font-bold text-5xl text-slate-200">Ramonito Copreros</h1>
-      <h2 className="mt-4 text-xl font-light text-slate-200">
-        Software Engineer
+      <h1 className="font-bold text-5xl text-neutral-200">Ramonito Copreros</h1>
+      <h2 className="mt-4 text-xl font-light text-neutral-200">
+        Frontend/Fullstack Software Engineer
       </h2>
-      <p className="mt-4 text-m max-w-xs">
+      <p className="mt-4 text-m max-w-xs text-neutral-400">
         Aspiring to build interesting apps at the highest quality.
       </p>
     </header>

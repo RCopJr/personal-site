@@ -8,7 +8,7 @@ const Resume = () => {
     <div className="py-24">
       <section
         id="about"
-        className="mb-24 text-neutral-400 leading-relaxed scroll-mt-24"
+        className="mb-32 text-neutral-400 leading-relaxed scroll-mt-24"
       >
         <p className="mb-6">
           👋 Hey there! My name is Ramonito. I recently graduated from the
@@ -44,11 +44,9 @@ const Resume = () => {
       </section>
       <section
         id="experience"
-        className="mb-24 text-neutral-400 leading-relaxed scroll-mt-24"
+        className="mb-32 text-neutral-400 leading-relaxed scroll-mt-24"
       >
-        <h1 className="font-bold text-3xl text-neutral-100 mb-8">
-          Relevant Experience:
-        </h1>
+        <h1 className="text-2xl text-neutral-100 mb-5">Relevant Experience</h1>
         <ExperienceCard
           company="Audioworks"
           date="May - Aug 2023"
@@ -97,9 +95,9 @@ const Resume = () => {
         </a>
       </section>
 
-      <section id="projects" className="mb-24 scroll-mt-24">
-        <h1 className="font-bold text-3xl text-neutral-100 mb-8">
-          My Favourite Projects:
+      <section id="projects" className="mb-32 scroll-mt-24">
+        <h1 className="text-2xl text-neutral-100 mb-5">
+          My Favourite Projects
         </h1>
         <ProjectCard
           name="Workout Tracker"

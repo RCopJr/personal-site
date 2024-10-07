@@ -28,14 +28,14 @@ const Header = () => {
         </p>
         <NavBar />
       </div>
-      <div className="flex gap-7">
+      <div className="flex gap-7 text-neutral-400">
         <a
           href="https://github.com/RCopJr"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon
-            className="text-3xl text-neutral-100"
+            className="text-3xl hover:text-neutral-100"
             icon={faGithub}
           ></FontAwesomeIcon>
         </a>
@@ -45,7 +45,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon
-            className="text-3xl text-neutral-100"
+            className="text-3xl hover:text-neutral-100"
             icon={faLinkedin}
           ></FontAwesomeIcon>
         </a>
@@ -55,7 +55,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon
-            className="text-3xl text-neutral-100"
+            className="text-3xl hover:text-neutral-100"
             icon={faInstagram}
           ></FontAwesomeIcon>
         </a>
@@ -65,7 +65,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon
-            className="text-3xl text-neutral-100"
+            className="text-3xl hover:text-neutral-100 transition duration-500"
             icon={faStrava}
           ></FontAwesomeIcon>
         </a>

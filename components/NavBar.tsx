@@ -29,6 +29,8 @@ const NavBar = () => {
       });
     };
 
+    handleScroll();
+
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -37,13 +39,13 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="flex flex-col gap-4 mt-10">
+    <nav className="flex flex-col gap-2 mt-24">
       {sectionIds.map((id, index) => {
         return (
           <NavItemCard
             key={index}
             sectionLink={`#${id}`}
-            title={id.toUpperCase()}
+            title={id}
             isActive={activeSection === id}
           />
         );

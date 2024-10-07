@@ -24,11 +24,11 @@ const ProjectCard = ({
     >
       <img className="h-20" src={imageSrc}></img>
       <div>
-        <h1 className="flex gap-2 text-xl font-bold mb-1 text-neutral-200 transition-all duration-200 group-hover:text-2xl">
+        <h1 className="flex items-center gap-2 text-xl font-bold mb-1 text-neutral-200 transition-all duration-200 group-hover:text-2xl">
           {name}
-          <ArrowTopRightOnSquareIcon className="size-6 transition-all duration-200 group-hover:size-7" />
+          <ArrowTopRightOnSquareIcon className="size-5 transition-all duration-200 group-hover:size-7" />
         </h1>
-        <p className="text-neutral-400 mb-4">{description}</p>
+        <p className="text-sm text-neutral-400 mb-4">{description}</p>
         <div className="flex flex-wrap gap-2">
           {skills.map((skill, index) => (
             <SkillBubble key={index} skill={skill} />

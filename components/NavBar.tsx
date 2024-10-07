@@ -4,16 +4,12 @@ import { getServerActionDispatcher } from "next/dist/client/components/app-route
 import React, { useEffect, useState } from "react";
 import NavItemCard from "./NavItemCard";
 
+const sectionIds = ["about", "experience", "projects"];
+
 const NavBar = () => {
   const [activeSection, setActiveSection] = useState<string>("");
-  const [sectionIds, setSectionsIds] = useState<string[]>([]);
 
   useEffect(() => {
-    setSectionsIds(() => {
-      const sectionIds = Array.from(document.querySelectorAll("section"));
-      return sectionIds.map((section) => section.id);
-    });
-
     const handleScroll = () => {
       const sections = document.querySelectorAll("section");
       sections.forEach((section) => {

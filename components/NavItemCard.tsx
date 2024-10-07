@@ -12,12 +12,14 @@ const NavItemCard = ({
   return (
     <a
       className={`${
-        isActive ? "text-neutral-100 bg-pos-100 text-base" : ""
-      } flex py-2 pr-3 w-32 text-sm rounded-xl duration-500 bg-gradient-to-r from-neutral-950 via-neutral-950 to-neutral-900 bg-size-200 transition-all`}
+        isActive ? "text-neutral-100 bg-pos-100" : ""
+      } group flex py-2 pr-3 w-28 text-sm rounded-xl duration-500 bg-gradient-to-r from-neutral-950 via-neutral-950 to-neutral-900 bg-size-200 transition-all hover:text-neutral-100 hover:bg-pos-100`}
       href={sectionLink}
     >
       <div
-        className={`${isActive ? "w-full" : "w-0"} transform-all duration-500`}
+        className={`${
+          isActive ? "w-full" : ""
+        } w-0 transform-all duration-500 group-hover:w-full`}
       ></div>
       {title.charAt(0).toUpperCase() + title.slice(1)}
     </a>

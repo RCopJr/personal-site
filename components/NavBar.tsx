@@ -1,6 +1,5 @@
 "use client";
 
-import { getServerActionDispatcher } from "next/dist/client/components/app-router";
 import React, { useEffect, useState } from "react";
 import NavItemCard from "./NavItemCard";
 
@@ -35,7 +34,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="flex flex-col gap-2 mt-24">
+    <nav className="hidden lg:flex flex-col gap-2 mt-24">
       {sectionIds.map((id, index) => {
         return (
           <NavItemCard

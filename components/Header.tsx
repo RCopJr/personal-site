@@ -8,26 +8,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useRef } from "react";
+import NavBar from "./NavBar";
 
 const Header = () => {
-  const headerRef = useRef<HTMLHeadElement>(null);
-
-  useEffect(() => {
-    const handleScrollWheel = (e: WheelEvent) => {
-      if (headerRef.current) {
-        e.preventDefault();
-      }
-    };
-
-    window.addEventListener("wheel", handleScrollWheel, { passive: false });
-
-    return () => {
-      window.removeEventListener("wheel", handleScrollWheel);
-    };
-  }, []);
-
   return (
-    <header ref={headerRef} className="py-24 flex flex-col justify-between">
+    <header className="sticky top-0 py-24 flex flex-col justify-between h-screen">
       <div>
         <h1 className="font-bold text-5xl text-neutral-200">
           Ramonito Copreros
@@ -41,6 +26,7 @@ const Header = () => {
         <p className="mt-4 text-m max-w-xs text-neutral-400">
           Aspiring to build interesting apps at the highest quality.
         </p>
+        <NavBar />
       </div>
       <div className="flex gap-7">
         <a
@@ -53,7 +39,6 @@ const Header = () => {
             icon={faGithub}
           ></FontAwesomeIcon>
         </a>
-
         <a
           href="https://www.linkedin.com/in/rcoprerosjr/"
           target="_blank"
@@ -64,7 +49,6 @@ const Header = () => {
             icon={faLinkedin}
           ></FontAwesomeIcon>
         </a>
-
         <a
           href="https://www.instagram.com/ramonito.jr/?hl=en"
           target="_blank"
@@ -75,7 +59,6 @@ const Header = () => {
             icon={faInstagram}
           ></FontAwesomeIcon>
         </a>
-
         <a
           href="https://www.strava.com/athletes/138075895"
           target="_blank"

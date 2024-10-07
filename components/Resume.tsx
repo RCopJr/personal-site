@@ -1,30 +1,15 @@
-"use client";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 import React, { useEffect, useRef } from "react";
 import ExperienceCard from "./ExperienceCard";
 import ProjectCard from "./ProjectCard";
 
 const Resume = () => {
-  const mainDivRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const handleScrollWheel = (e: WheelEvent) => {
-      if (mainDivRef.current) {
-        mainDivRef.current.scrollTop += e.deltaY;
-        e.preventDefault();
-      }
-    };
-
-    window.addEventListener("wheel", handleScrollWheel, { passive: false });
-
-    return () => {
-      window.removeEventListener("wheel", handleScrollWheel);
-    };
-  }, []);
-
   return (
-    <div ref={mainDivRef} className="py-24 overflow-y-hidden">
-      <section className="mb-24 text-neutral-400 leading-relaxed ">
+    <div className="py-24">
+      <section
+        id="about"
+        className="mb-24 text-neutral-400 leading-relaxed scroll-mt-24"
+      >
         <p className="mb-6">
           👋 Hey there! My name is Ramonito. I recently graduated from the
           <span className="text-neutral-100"> University of Waterloo</span> with
@@ -57,7 +42,10 @@ const Resume = () => {
           </a>
         </p>
       </section>
-      <section className="mb-24 text-neutral-400 leading-relaxed ">
+      <section
+        id="experience"
+        className="mb-24 text-neutral-400 leading-relaxed scroll-mt-24"
+      >
         <h1 className="font-bold text-3xl text-neutral-100 mb-8">
           Relevant Experience:
         </h1>
@@ -109,7 +97,7 @@ const Resume = () => {
         </a>
       </section>
 
-      <section className="mb-24">
+      <section id="projects" className="mb-24 scroll-mt-24">
         <h1 className="font-bold text-3xl text-neutral-100 mb-8">
           My Favourite Projects:
         </h1>

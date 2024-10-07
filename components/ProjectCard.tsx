@@ -30,8 +30,8 @@ const ProjectCard = ({
         </h1>
         <p className="text-neutral-400 mb-4">{description}</p>
         <div className="flex flex-wrap gap-2">
-          {skills.map((skill) => (
-            <SkillBubble skill={skill} />
+          {skills.map((skill, index) => (
+            <SkillBubble key={index} skill={skill} />
           ))}
         </div>
       </div>

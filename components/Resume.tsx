@@ -15,35 +15,26 @@ const Resume = () => {
           <h1>About</h1>
         </div>
         <p className="mb-6">
-          👋 Hey there! My name is Ramonito. I recently graduated from the
-          <span className="text-neutral-100"> University of Waterloo</span> with
-          a degree in Mechatronics Engineering. I have a strong passion for
-          software engineering with a love for building and learning how to
-          build fun apps that are useful, efficient, and aesthetic!
+          👋 Hey there! I'm Ramonito, a recent Mechatronics Engineering graduate
+          from the
+          <span className="text-neutral-100"> University of Waterloo</span>. I
+          have a strong passion for software engineering and a love for creating
+          fun, efficient, and aesthetically pleasing apps.
         </p>
 
         <p className="mb-6">
-          I am currently{" "}
+          I'm also currently{" "}
           <span className="text-neutral-100">
             {" "}
             seeking software engineering opportunities
           </span>{" "}
-          in both web or mobile development, with a focus on either frontend or
-          full-stack.
+          with my main focuses being in frontend or full-stack development (web
+          & mobile).
         </p>
 
         <p className="mb-6">
-          Other than building apps, I also love exploring the world, reading a
-          new book, hanging out with friends, and{" "}
-          <a
-            className="underline text-neutral-100 hover:text-lg transition-all ease-in-out duration-200"
-            href="https://www.strava.com/athletes/138075895"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Add me on Strava!!"
-          >
-            going on runs!
-          </a>
+          Beyond coding, I enjoy exploring the world, diving into a new book,
+          hanging out with friends, and going out for runs!
         </p>
       </section>
       <section

@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <header className="py-16 lg:sticky lg:top-0 lg:py-24 flex flex-col justify-between lg:h-screen">
       <div>
-        <h1 className="font-bold text-5xl text-neutral-200">
+        <h1 className="font-bold text-4xl lg:text-5xl text-neutral-200">
           Ramonito Copreros
         </h1>
-        <h2 className="mt-4 text-xl font-light text-neutral-200">
+        <h2 className="mt-4 text-lg lg:text-xl font-light text-neutral-200">
           Frontend/Fullstack{" "}
           <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 animate-gradient-slow bg-[length:200%_200%]">
             Software Engineer

@@ -121,7 +121,7 @@ const Resume = () => {
         <CourseCard
           title="Machine Learning"
           link="https://www.coursera.org/account/accomplishments/certificate/R5L5R6MAGLYM"
-          platform="Coursera: Stanford"
+          platform="Coursera"
           date="2022"
           skills={["Python", "MATLAB"]}
         />

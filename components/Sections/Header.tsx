@@ -26,7 +26,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 hover:text-gray-100"
+            className="size-8 transition duration-500 hover:text-gray-100"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"
@@ -41,7 +41,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 hover:text-gray-100"
+            className="size-8 transition duration-500 hover:text-gray-100"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -56,7 +56,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 hover:text-gray-100"
+            className="size-8 transition duration-500 hover:text-gray-100"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -71,7 +71,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 hover:text-gray-100"
+            className="size-8 transition duration-500 hover:text-gray-100"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"

@@ -69,7 +69,7 @@ const Resume = () => {
           date="Sep - Dec 2020"
           position="Software Engineer Intern"
           description="Worked closely with UI teams and engineers to enhance and maintain our movie webstore application, 
-          taking the lead on the main updates to the user's downloads page"
+          taking the lead on the main updates to the user's downloads page."
           skills={["Javascript", "HTML", "CSS", "PHP", "SQL", "Knockout.js"]}
         />
 

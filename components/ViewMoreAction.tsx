@@ -9,7 +9,7 @@ const ViewMoreAction = ({
 }) => {
   return (
     <a
-      className="transform-all duration-400 mt-10 flex transition-all hover:text-gray-100"
+      className="transform-all mt-10 flex transition duration-500 hover:text-gray-100"
       href={link}
       target="_blank"
       rel="noopener noreferrer"

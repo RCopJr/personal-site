@@ -1,18 +1,22 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import SkillBubble from "../SkillBubble";
 
 const ProjectCard = ({
   name = "",
   alt = "",
-  imageSrc = "",
+  imageSrc = {
+    src: "",
+    width: 0,
+    height: 0,
+  },
   link = "",
   description = "",
   skills = [],
 }: {
   name: string;
   alt: string;
-  imageSrc: string;
+  imageSrc: StaticImageData;
   link: string;
   description: string;
   skills: string[];
@@ -24,7 +28,11 @@ const ProjectCard = ({
       rel="noopener noreferrer"
       className="transform-all duration-400 group mb-8 flex gap-5 rounded-xl bg-gradient-to-r from-gray-800 via-gray-900 to-gray-950 bg-size-200 bg-pos-100 p-6 transition-all hover:scale-105 hover:bg-pos-0"
     >
-      <Image alt={alt} className="hidden h-20 md:inline-block" src={imageSrc} />
+      <Image
+        alt={alt}
+        className="hidden h-16 w-28 md:inline-block"
+        src={imageSrc}
+      />
       <div>
         <h1 className="mb-3 flex items-center gap-2 text-lg font-bold text-gray-200">
           {name}

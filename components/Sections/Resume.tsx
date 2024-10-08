@@ -1,4 +1,7 @@
 import React from "react";
+import portfolioPic from "../../public/portfolio.png";
+import recipeFinderPic from "../../public/recipe_finder.png";
+import workoutTrackerPic from "../../public/workout_tracker.png";
 import CourseCard from "../Cards/CourseCard";
 import ExperienceCard from "../Cards/ExperienceCard";
 import ProjectCard from "../Cards/ProjectCard";
@@ -78,9 +81,18 @@ const Resume = () => {
           <h1>Featured Projects</h1>
         </div>
         <ProjectCard
+          name="Portfolio"
+          alt="Portfolio site landing page view"
+          imageSrc={portfolioPic}
+          link="https://github.com/RCopJr/portfolio"
+          description="This thoughtfully designed portfolio built to showcase my work while honing 
+          my UI development and design skills."
+          skills={["React", "Tailwind", "Next.js", "Aceternity UI"]}
+        />
+        <ProjectCard
           name="Workout Tracker"
           alt="Mobile views of workout tracker app"
-          imageSrc="/workout_tracker.png"
+          imageSrc={workoutTrackerPic}
           link="https://github.com/RCopJr/workout-tracker"
           description="Working on a mobile-friendly web clone of the Strong app."
           skills={["MongoDB", "Express", "React", "Node.js"]}
@@ -88,19 +100,10 @@ const Resume = () => {
         <ProjectCard
           name="Recipe Finder"
           alt="Main page of recipe finder app"
-          imageSrc="/recipe_finder.png"
+          imageSrc={recipeFinderPic}
           link="https://github.com/RCopJr/recipe-finder"
           description="A responsive web app for fetching recipes based on various search filters."
           skills={["MongoDB", "Express", "React", "Node.js"]}
-        />
-        <ProjectCard
-          name="Portfolio"
-          alt="Portfolio site landing page view"
-          imageSrc="/portfolio.png"
-          link="https://github.com/RCopJr/portfolio"
-          description="This thoughtfully designed portfolio built to showcase my work while honing 
-          my UI development and design skills."
-          skills={["React", "Tailwind", "Next.js", "Aceternity UI"]}
         />
 
         <ViewMoreAction

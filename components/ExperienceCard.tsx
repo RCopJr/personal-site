@@ -15,7 +15,7 @@ const ExperienceCard = ({
   skills: string[];
 }) => {
   return (
-    <div className="mb-8 text-gray-400 rounded-xl shadow-lg p-6 bg-gradient-to-r from-gray-900 to-gray-950">
+    <div className="mb-8 text-gray-400 rounded-xl p-6 bg-gradient-to-r from-gray-900 to-gray-950">
       <div className="flex flex-wrap justify-between text-lg mb-1 items-center">
         <h1 className="font-bold text-gray-100">{company}</h1>
         <h3 className="text-sm">{date}</h3>

@@ -41,8 +41,8 @@ const Resume = () => {
         id="experience"
         className="mb-32 text-gray-400 leading-relaxed scroll-mt-24"
       >
-        <div className="bg-gray-950 opacity-90 text-xl lg:opacity-100 sticky top-0 lg:relative lg:text-lg text-gray-100 mb-5 py-4 lg:py-0">
-          <h1>Relevant Work</h1>
+        <div className="bg-gray-950 opacity-90 text-xl lg:opacity-100 sticky top-0 lg:relative lg:text-lg text-gray-400 font-bold mb-5 py-4 lg:py-0">
+          <h1>Relevant Experience</h1>
         </div>
         <ExperienceCard
           company="Audioworks"
@@ -100,8 +100,8 @@ const Resume = () => {
       </section>
 
       <section id="projects" className="mb-32 scroll-mt-24">
-        <div className="bg-gray-950 opacity-90 sticky top-0 lg:relative text-2xl text-gray-100 mb-5 py-4 lg:py-0">
-          <h1>Favourite Projects</h1>
+        <div className="bg-gray-950 opacity-90 lg:opacity-100 sticky top-0 lg:relative text-xl lg:text-lg font-bold text-gray-400 font-bold mb-5 py-4 lg:py-0">
+          <h1>Featured Projects</h1>
         </div>
         <ProjectCard
           name="Workout Tracker"

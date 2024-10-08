@@ -1,4 +1,5 @@
 import React from "react";
+import CourseCard from "../Cards/CourseCard";
 import ExperienceCard from "../Cards/ExperienceCard";
 import ProjectCard from "../Cards/ProjectCard";
 import ViewMoreAction from "../ViewMoreAction";
@@ -6,7 +7,7 @@ import Footer from "./Footer";
 
 const Resume = () => {
   return (
-    <div className="py-12 lg:py-24">
+    <div className="py-16 lg:py-24">
       <section
         id="about"
         className="mb-32 scroll-mt-24 text-sm leading-relaxed text-neutral-400"
@@ -104,6 +105,25 @@ const Resume = () => {
         <ViewMoreAction
           text="Checkout my github for more!"
           link="https://github.com/RCopJr"
+        />
+      </section>
+      <section id="certifications" className="mb-32 scroll-mt-24">
+        <div className="sticky top-0 mb-5 bg-neutral-950 py-4 text-xl font-bold text-neutral-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-neutral-400 lg:opacity-100">
+          <h1>Certifications</h1>
+        </div>
+        <CourseCard
+          title="The Complete Web Development Bootcamp"
+          link="https://udemy-certificate.s3.amazonaws.com/pdf/UC-31a51522-7bba-4e8d-86e9-b4c31c59521f.pdf"
+          platform="Udemy"
+          date="2022"
+          skills={["HTML", "CSS", "Javascript", "Node.js", "React", "MongoDB"]}
+        />
+        <CourseCard
+          title="Machine Learning"
+          link="https://www.coursera.org/account/accomplishments/certificate/R5L5R6MAGLYM"
+          platform="Coursera: Stanford"
+          date="2022"
+          skills={["Python", "MATLAB"]}
         />
       </section>
       <Footer />

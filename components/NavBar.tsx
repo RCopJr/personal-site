@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import NavItemCard from "./Cards/NavItemCard";
 
-const sectionIds = ["about", "experience", "projects"];
+const sectionIds = ["about", "experience", "projects", "certifications"];
 
 const NavBar = () => {
   const [activeSection, setActiveSection] = useState<string>("");

@@ -1,18 +1,17 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
-import React, { useEffect, useRef } from "react";
-import ExperienceCard from "./ExperienceCard";
-import ProjectCard from "./ProjectCard";
-import ViewMoreAction from "./ViewMoreAction";
+import React from "react";
+import ExperienceCard from "../Cards/ExperienceCard";
+import ProjectCard from "../Cards/ProjectCard";
+import ViewMoreAction from "../ViewMoreAction";
+import Footer from "./Footer";
 
 const Resume = () => {
   return (
     <div className="py-12 lg:py-24">
       <section
         id="about"
-        className="mb-32 text-neutral-400 leading-relaxed scroll-mt-24 text-sm"
+        className="mb-32 scroll-mt-24 text-sm leading-relaxed text-neutral-400"
       >
-        <div className="bg-neutral-950 opacity-90 sticky top-0 lg:hidden text-xl font-bold text-neutral-100 mb-5 py-4 lg:py-0 ">
+        <div className="sticky top-0 mb-5 bg-neutral-950 py-4 text-xl font-bold text-neutral-100 opacity-90 lg:hidden lg:py-0">
           <h1>About</h1>
         </div>
         <p className="mb-6">
@@ -30,9 +29,9 @@ const Resume = () => {
       </section>
       <section
         id="experience"
-        className="mb-32 text-neutral-400 leading-relaxed scroll-mt-24"
+        className="mb-32 scroll-mt-24 leading-relaxed text-neutral-400"
       >
-        <div className="bg-neutral-950 opacity-90 text-xl lg:opacity-100 sticky top-0 lg:relative lg:text-lg text-neutral-100 lg:text-neutral-400 font-bold mb-5 py-4 lg:py-0">
+        <div className="sticky top-0 mb-5 bg-neutral-950 py-4 text-xl font-bold text-neutral-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-neutral-400 lg:opacity-100">
           <h1>Relevant Experience</h1>
         </div>
         <ExperienceCard
@@ -73,7 +72,7 @@ const Resume = () => {
       </section>
 
       <section id="projects" className="mb-32 scroll-mt-24">
-        <div className="bg-neutral-950 opacity-90 lg:opacity-100 sticky top-0 lg:relative text-xl lg:text-lg text-neutral-100 lg:text-neutral-400 font-bold mb-5 py-4 lg:py-0">
+        <div className="sticky top-0 mb-5 bg-neutral-950 py-4 text-xl font-bold text-neutral-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-neutral-400 lg:opacity-100">
           <h1>Featured Projects</h1>
         </div>
         <ProjectCard
@@ -107,38 +106,7 @@ const Resume = () => {
           link="https://github.com/RCopJr"
         />
       </section>
-      <footer className="flex flex-col gap-1">
-        <div>
-          Deployed with <span>Vercel</span>. Built with{" "}
-          <span className="text-neutral-100">Next.js</span>,{" "}
-          <span className="text-neutral-100">Tailwind</span>, and{" "}
-          <span className="text-neutral-100">Love</span> ❤️
-        </div>
-        <div>
-          Main inspirations:{" "}
-          <a
-            href="https://brittanychiang.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="text-neutral-100">brittanychiang.com</span> and{" "}
-          </a>
-          <a
-            href="https://cherupil.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="text-neutral-100">cherupil.com</span>
-          </a>
-        </div>
-      </footer>
-      {/* Simulating long content */}
-      {/* {[...Array(50)].map((_, i) => (
-        <div key={i} className="my-4">
-          Content block {i + 1}: Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Etiam vel ultricies nulla. Suspendisse potenti.
-        </div>
-      ))} */}
+      <Footer />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillBubble = ({ skill }: { skill: string }) => {
   return (
-    <div className="inline-block py-1 px-3 bg-neutral-700 text-neutral-100 rounded-full text-xs">
+    <div className="inline-block rounded-full bg-neutral-700 px-3 py-1 text-xs text-neutral-100">
       {skill}
     </div>
   );

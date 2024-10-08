@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import NavItemCard from "./NavItemCard";
+import NavItemCard from "./Cards/NavItemCard";
 
 const sectionIds = ["about", "experience", "projects"];
 
@@ -34,7 +34,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="hidden lg:flex flex-col gap-2 mt-32">
+    <nav className="mt-32 hidden flex-col gap-2 lg:flex">
       {sectionIds.map((id, index) => {
         return (
           <NavItemCard

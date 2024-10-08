@@ -1,25 +1,25 @@
 import React from "react";
-import NavBar from "./NavBar";
+import NavBar from "../NavBar";
 
 const Header = () => {
   return (
-    <header className="py-16 lg:sticky lg:top-0 lg:py-24 flex flex-col justify-between lg:h-screen">
+    <header className="flex flex-col justify-between py-16 lg:sticky lg:top-0 lg:h-screen lg:py-24">
       <div>
-        <h1 className="font-bold text-4xl lg:text-5xl text-neutral-100">
+        <h1 className="text-4xl font-bold text-neutral-100 lg:text-5xl">
           Ramonito Copreros
         </h1>
-        <h2 className="mt-4 text-lg lg:text-xl font-bold text-neutral-400">
+        <h2 className="mt-4 text-lg font-bold text-neutral-400 lg:text-xl">
           Frontend/Fullstack{" "}
-          <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 animate-gradient-slow bg-[length:200%_200%]">
+          <span className="animate-gradient-slow bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 bg-[length:200%_200%] bg-clip-text font-bold text-transparent">
             Software Engineer
           </span>
         </h2>
-        <p className="mt-4 text-lg max-w-xs text-neutral-100">
+        <p className="mt-4 max-w-xs text-lg text-neutral-100">
           Seeking full-time opportunities.
         </p>
         <NavBar />
       </div>
-      <div className="flex gap-7 text-neutral-400 mt-8">
+      <div className="mt-8 flex gap-7 text-neutral-400">
         <a
           href="https://github.com/RCopJr"
           target="_blank"

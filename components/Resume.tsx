@@ -9,28 +9,28 @@ const Resume = () => {
     <div className="py-12 lg:py-24">
       <section
         id="about"
-        className="mb-32 text-neutral-400 leading-relaxed scroll-mt-24"
+        className="mb-32 text-gray-400 leading-relaxed scroll-mt-24 text-sm"
       >
-        <div className="bg-neutral-950 opacity-90 sticky top-0 lg:hidden text-2xl text-neutral-100 mb-5 py-4 lg:py-0 ">
+        <div className="bg-gray-950 opacity-90 sticky top-0 lg:hidden text-xl text-gray-100 mb-5 py-4 lg:py-0 ">
           <h1>About</h1>
         </div>
         <p className="mb-6">
           👋 Hey there! I'm Ramonito, a recent Mechatronics Engineering graduate
           from the
-          <span className="text-neutral-100"> University of Waterloo</span>. I
-          have a strong passion for software engineering and a love for creating
-          fun, efficient, and aesthetically pleasing apps.
+          <span className="text-gray-100"> University of Waterloo</span>. I have
+          a passion for learning new things about software and a love for
+          creating fun, efficient, and aesthetically pleasing apps.
         </p>
 
-        <p className="mb-6">
+        {/* <p className="mb-6">
           I'm also currently{" "}
-          <span className="text-neutral-100">
+          <span className="text-gray-100">
             {" "}
             seeking software engineering opportunities
           </span>{" "}
           with my main focuses being in frontend or full-stack development (web
           & mobile).
-        </p>
+        </p> */}
 
         <p className="mb-6">
           Beyond coding, I enjoy exploring the world, diving into a new book,
@@ -39,10 +39,10 @@ const Resume = () => {
       </section>
       <section
         id="experience"
-        className="mb-32 text-neutral-400 leading-relaxed scroll-mt-24"
+        className="mb-32 text-gray-400 leading-relaxed scroll-mt-24"
       >
-        <div className="bg-neutral-950 opacity-90 sticky top-0 lg:relative text-2xl text-neutral-100 mb-5 py-4 lg:py-0">
-          <h1>Relevant Experience</h1>
+        <div className="bg-gray-950 opacity-90 text-xl lg:opacity-100 sticky top-0 lg:relative lg:text-lg text-gray-100 mb-5 py-4 lg:py-0">
+          <h1>Relevant Work</h1>
         </div>
         <ExperienceCard
           company="Audioworks"
@@ -64,23 +64,22 @@ const Resume = () => {
           company="Verticalscope"
           date="Sep - Dec 2022"
           position="Software Engineer Intern"
-          description="Worked in a team to manage three large fitness websites hosting blogs, products, and forums. 
-          Also collaborated with others to create a POC for decoupling the sites using Strapi as a CMS."
+          description="Collaborated in a team to manage three large fitness websites featuring blogs, 
+          products, and forums, while also helping develop a proof of concept to decouple the sites using Strapi as a CMS."
           skills={["Wordpress", "PHP", "Typescript", "Strapi"]}
         />
 
         <ExperienceCard
-          company="Audioworks"
-          date="May - Aug 2024"
-          position="Web & Mobile Developer"
-          description="Led projects to enhance and develop core features, 
-          including an interactive music player on the mobile app and its 
-          integration with paginated user feeds for our social media platform, Soundsunite."
-          skills={["React", "React Native", "Node", "Express"]}
+          company="Kaleidescape"
+          date="Sep - Dec 2020"
+          position="Software Engineer Intern"
+          description="Worked closely with UI teams and engineers to enhance and maintain our movie webstore application, 
+          taking the lead on the main updates to the user's downloads page."
+          skills={["Javascript", "HTML", "CSS", "PHP", "SQL", "Knockout.js"]}
         />
 
         <a
-          className="hover:text-neutral-100 mt-10 transform-all flex transition-all duration-300"
+          className="hover:text-gray-100 mt-10 transform-all flex transition-all duration-300"
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
@@ -88,7 +87,7 @@ const Resume = () => {
           <div className="font-bold flex flex-row gap-2 items-center">
             View my full resume here
             <svg
-              className="size-5 hover:text-neutral-100"
+              className="size-5 hover:text-gray-100"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 640 512"
@@ -101,33 +100,34 @@ const Resume = () => {
       </section>
 
       <section id="projects" className="mb-32 scroll-mt-24">
-        <div className="bg-neutral-950 opacity-90 sticky top-0 lg:relative text-2xl text-neutral-100 mb-5 py-4 lg:py-0">
+        <div className="bg-gray-950 opacity-90 sticky top-0 lg:relative text-2xl text-gray-100 mb-5 py-4 lg:py-0">
           <h1>Favourite Projects</h1>
         </div>
         <ProjectCard
           name="Workout Tracker"
           imageSrc="/workout_tracker.png"
           link="https://github.com/RCopJr/workout-tracker"
-          description="Working on a mobile-friendly web clone of the Strong app in React"
-          skills={["MongoDB", "Express", "React", "Node"]}
+          description="Working on a mobile-friendly web clone of the Strong app."
+          skills={["MongoDB", "Express", "React", "Node.js"]}
         />
         <ProjectCard
           name="Recipe Finder"
           imageSrc="/recipe_finder.png"
           link="https://github.com/RCopJr/recipe-finder"
-          description="Working on a mobile-friendly web clone of the Strong app in React"
-          skills={["MongoDB", "Express", "React", "Node"]}
+          description="A responsive web app for fetching recipes based on various search filters."
+          skills={["MongoDB", "Express", "React", "Node.js"]}
         />
         <ProjectCard
           name="Portfolio"
           imageSrc="/portfolio.png"
           link="https://github.com/RCopJr/portfolio"
-          description="Working on a mobile-friendly web clone of the Strong app in React"
-          skills={["React", "Tailwind", "Next"]}
+          description="This thoughtfully designed portfolio built to showcase my work while honing 
+          my UI development and design skills."
+          skills={["React", "Tailwind", "Next.js"]}
         />
 
         <a
-          className="hover:text-neutral-100 transition-all ease-in-out duration-200"
+          className="hover:text-gray-100 transition-all ease-in-out duration-200"
           href="https://github.com/RCopJr"
           target="_blank"
           rel="noopener noreferrer"
@@ -135,7 +135,7 @@ const Resume = () => {
           <div className="mt-10 font-bold flex items-center flex-row gap-2">
             Checkout my github for more!
             <svg
-              className="size-5 hover:text-neutral-100"
+              className="size-5 hover:text-gray-100"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 640 512"
@@ -149,9 +149,9 @@ const Resume = () => {
       <footer className="flex flex-col gap-1">
         <div>
           Deployed with <span>Vercel</span>. Built with{" "}
-          <span className="text-neutral-100">Next.js</span>,{" "}
-          <span className="text-neutral-100">Tailwind</span>, and{" "}
-          <span className="text-neutral-100">Love</span> ❤️
+          <span className="text-gray-100">Next.js</span>,{" "}
+          <span className="text-gray-100">Tailwind</span>, and{" "}
+          <span className="text-gray-100">Love</span> ❤️
         </div>
         <div>
           Main inspirations:{" "}
@@ -160,14 +160,14 @@ const Resume = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-neutral-100">brittanychiang.com</span> and{" "}
+            <span className="text-gray-100">brittanychiang.com</span> and{" "}
           </a>
           <a
             href="https://cherupil.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-neutral-100">cherupil.com</span>
+            <span className="text-gray-100">cherupil.com</span>
           </a>
         </div>
       </footer>

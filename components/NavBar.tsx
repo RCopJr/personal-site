@@ -34,7 +34,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="hidden lg:flex flex-col gap-2 mt-24">
+    <nav className="hidden lg:flex flex-col gap-2 mt-32">
       {sectionIds.map((id, index) => {
         return (
           <NavItemCard

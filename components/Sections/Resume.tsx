@@ -19,7 +19,7 @@ const Resume = () => {
           <h1>About</h1>
         </div>
         <p className="mb-6">
-          👋 Hey there! I&aposm Ramonito, a recent Mechatronics Engineering
+          👋 Hey there! I&apos;m Ramonito, a recent Mechatronics Engineering
           graduate from the
           <span className="text-gray-100"> University of Waterloo</span>. I have
           a passion for learning new things about software and a love for
@@ -69,7 +69,7 @@ const Resume = () => {
           date="Sep - Dec 2020"
           position="Software Engineer Intern"
           description="Worked closely with UI teams and engineers to enhance and maintain our movie webstore application, 
-          taking the lead on the main updates to the user&aposs downloads page."
+          taking the lead on the main updates to the user's downloads page"
           skills={["Javascript", "HTML", "CSS", "PHP", "SQL", "Knockout.js"]}
         />
 

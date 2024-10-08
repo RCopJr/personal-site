@@ -3,13 +3,15 @@ import React from "react";
 import SkillBubble from "./SkillBubble";
 
 const ProjectCard = ({
-  name = "Audioworks",
+  name = "",
+  alt = "",
   imageSrc = "",
   link = "",
-  description = "Worked on their mobile and web social media platform Sounds unite",
-  skills = ["React", "Javascript"],
+  description = "",
+  skills = [],
 }: {
   name: string;
+  alt: string;
   imageSrc: string;
   link: string;
   description: string;
@@ -22,7 +24,11 @@ const ProjectCard = ({
       rel="noopener noreferrer"
       className="hover:scale-105 transform-all flex group gap-5 mb-8 rounded-xl p-6 bg-gradient-to-r from-neutral-800 via-neutral-900 to-neutral-950 bg-size-200 bg-pos-100 transition-all duration-300 hover:bg-pos-0"
     >
-      <img className="hidden md:inline-block h-20" src={imageSrc}></img>
+      <img
+        alt={alt}
+        className="hidden md:inline-block h-20"
+        src={imageSrc}
+      ></img>
       <div>
         <h1 className="flex items-center gap-2 text-lg font-bold mb-3 text-neutral-200">
           {name}

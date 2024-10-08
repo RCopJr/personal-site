@@ -5,28 +5,28 @@ const Header = () => {
   return (
     <header className="py-16 lg:sticky lg:top-0 lg:py-24 flex flex-col justify-between lg:h-screen">
       <div>
-        <h1 className="font-bold text-4xl lg:text-5xl text-gray-100">
+        <h1 className="font-bold text-4xl lg:text-5xl text-neutral-100">
           Ramonito Copreros
         </h1>
-        <h2 className="mt-4 text-lg lg:text-xl font-bold text-gray-400">
+        <h2 className="mt-4 text-lg lg:text-xl font-bold text-neutral-400">
           Frontend/Fullstack{" "}
           <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 animate-gradient-slow bg-[length:200%_200%]">
             Software Engineer
           </span>
         </h2>
-        <p className="mt-4 text-lg max-w-xs text-gray-100">
+        <p className="mt-4 text-lg max-w-xs text-neutral-100">
           Seeking full-time opportunities.
         </p>
         <NavBar />
       </div>
-      <div className="flex gap-7 text-gray-400 mt-8">
+      <div className="flex gap-7 text-neutral-400 mt-8">
         <a
           href="https://github.com/RCopJr"
           target="_blank"
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 hover:text-gray-100"
+            className="size-8 hover:text-neutral-100"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"
@@ -41,7 +41,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 hover:text-gray-100"
+            className="size-8 hover:text-neutral-100"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -56,7 +56,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 hover:text-gray-100"
+            className="size-8 hover:text-neutral-100"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -71,7 +71,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 hover:text-gray-100"
+            className="size-8 hover:text-neutral-100"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"

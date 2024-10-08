@@ -9,22 +9,22 @@ const Resume = () => {
     <div className="py-12 lg:py-24">
       <section
         id="about"
-        className="mb-32 text-gray-400 leading-relaxed scroll-mt-24 text-sm"
+        className="mb-32 text-neutral-400 leading-relaxed scroll-mt-24 text-sm"
       >
-        <div className="bg-gray-950 opacity-90 sticky top-0 lg:hidden text-xl text-gray-100 mb-5 py-4 lg:py-0 ">
+        <div className="bg-neutral-950 opacity-90 sticky top-0 lg:hidden text-xl text-neutral-100 mb-5 py-4 lg:py-0 ">
           <h1>About</h1>
         </div>
         <p className="mb-6">
           👋 Hey there! I'm Ramonito, a recent Mechatronics Engineering graduate
           from the
-          <span className="text-gray-100"> University of Waterloo</span>. I have
-          a passion for learning new things about software and a love for
+          <span className="text-neutral-100"> University of Waterloo</span>. I
+          have a passion for learning new things about software and a love for
           creating fun, efficient, and aesthetically pleasing apps.
         </p>
 
         {/* <p className="mb-6">
           I'm also currently{" "}
-          <span className="text-gray-100">
+          <span className="text-neutral-100">
             {" "}
             seeking software engineering opportunities
           </span>{" "}
@@ -39,9 +39,9 @@ const Resume = () => {
       </section>
       <section
         id="experience"
-        className="mb-32 text-gray-400 leading-relaxed scroll-mt-24"
+        className="mb-32 text-neutral-400 leading-relaxed scroll-mt-24"
       >
-        <div className="bg-gray-950 opacity-90 text-xl lg:opacity-100 sticky top-0 lg:relative lg:text-lg text-gray-400 font-bold mb-5 py-4 lg:py-0">
+        <div className="bg-neutral-950 opacity-90 text-xl lg:opacity-100 sticky top-0 lg:relative lg:text-lg text-neutral-400 font-bold mb-5 py-4 lg:py-0">
           <h1>Relevant Experience</h1>
         </div>
         <ExperienceCard
@@ -79,7 +79,7 @@ const Resume = () => {
         />
 
         <a
-          className="hover:text-gray-100 mt-10 transform-all flex transition-all duration-300"
+          className="hover:text-neutral-100 mt-10 transform-all flex transition-all duration-300"
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
@@ -87,7 +87,7 @@ const Resume = () => {
           <div className="font-bold flex flex-row gap-2 items-center">
             View my full resume here
             <svg
-              className="size-5 hover:text-gray-100"
+              className="size-5 hover:text-neutral-100"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 640 512"
@@ -100,7 +100,7 @@ const Resume = () => {
       </section>
 
       <section id="projects" className="mb-32 scroll-mt-24">
-        <div className="bg-gray-950 opacity-90 lg:opacity-100 sticky top-0 lg:relative text-xl lg:text-lg font-bold text-gray-400 font-bold mb-5 py-4 lg:py-0">
+        <div className="bg-neutral-950 opacity-90 lg:opacity-100 sticky top-0 lg:relative text-xl lg:text-lg font-bold text-neutral-400 font-bold mb-5 py-4 lg:py-0">
           <h1>Featured Projects</h1>
         </div>
         <ProjectCard
@@ -127,7 +127,7 @@ const Resume = () => {
         />
 
         <a
-          className="hover:text-gray-100 transition-all ease-in-out duration-200"
+          className="hover:text-neutral-100 transition-all ease-in-out duration-200"
           href="https://github.com/RCopJr"
           target="_blank"
           rel="noopener noreferrer"
@@ -135,7 +135,7 @@ const Resume = () => {
           <div className="mt-10 font-bold flex items-center flex-row gap-2">
             Checkout my github for more!
             <svg
-              className="size-5 hover:text-gray-100"
+              className="size-5 hover:text-neutral-100"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 640 512"
@@ -149,9 +149,9 @@ const Resume = () => {
       <footer className="flex flex-col gap-1">
         <div>
           Deployed with <span>Vercel</span>. Built with{" "}
-          <span className="text-gray-100">Next.js</span>,{" "}
-          <span className="text-gray-100">Tailwind</span>, and{" "}
-          <span className="text-gray-100">Love</span> ❤️
+          <span className="text-neutral-100">Next.js</span>,{" "}
+          <span className="text-neutral-100">Tailwind</span>, and{" "}
+          <span className="text-neutral-100">Love</span> ❤️
         </div>
         <div>
           Main inspirations:{" "}
@@ -160,14 +160,14 @@ const Resume = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-gray-100">brittanychiang.com</span> and{" "}
+            <span className="text-neutral-100">brittanychiang.com</span> and{" "}
           </a>
           <a
             href="https://cherupil.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-gray-100">cherupil.com</span>
+            <span className="text-neutral-100">cherupil.com</span>
           </a>
         </div>
       </footer>

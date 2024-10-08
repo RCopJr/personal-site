@@ -19,10 +19,10 @@ const CourseCard = ({
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="transform-all group mb-8 flex flex-col rounded-xl bg-gradient-to-r from-neutral-800 via-neutral-900 to-neutral-950 bg-size-200 bg-pos-100 p-6 transition-all duration-300 hover:scale-105 hover:bg-pos-0"
+      className="transform-all duration-400 group mb-8 flex flex-col rounded-xl bg-gradient-to-r from-gray-800 via-gray-900 to-gray-950 bg-size-200 bg-pos-100 p-6 transition-all hover:scale-105 hover:bg-pos-0"
     >
       <div className="mb-1 flex flex-wrap items-center justify-between text-lg">
-        <h1 className="flex items-center gap-2 text-lg font-bold text-neutral-200">
+        <h1 className="flex items-center gap-2 text-lg font-bold text-gray-200">
           {title}
           <svg
             className="size-5"
@@ -37,7 +37,7 @@ const CourseCard = ({
 
         <h3 className="text-sm">{date}</h3>
       </div>
-      <h2 className="mb-4 text-lg font-bold text-neutral-400">{platform}</h2>
+      <h2 className="mb-4 text-lg font-bold text-gray-400">{platform}</h2>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, index) => (
           <SkillBubble key={index} skill={skill} />

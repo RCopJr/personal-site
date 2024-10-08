@@ -9,7 +9,7 @@ const ViewMoreAction = ({
 }) => {
   return (
     <a
-      className="transform-all mt-10 flex transition-all duration-300 hover:text-neutral-100"
+      className="transform-all duration-400 mt-10 flex transition-all hover:text-gray-100"
       href={link}
       target="_blank"
       rel="noopener noreferrer"
@@ -17,7 +17,7 @@ const ViewMoreAction = ({
       <div className="flex flex-row items-center gap-2 font-bold">
         {text}
         <svg
-          className="size-5 hover:text-neutral-100"
+          className="size-5 hover:text-gray-100"
           fill="currentColor"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 640 512"

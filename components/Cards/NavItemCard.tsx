@@ -12,8 +12,8 @@ const NavItemCard = ({
   return (
     <a
       className={`${
-        isActive ? "bg-pos-100 text-neutral-100" : ""
-      } group flex w-28 rounded-xl bg-gradient-to-r from-neutral-950 via-neutral-950 to-neutral-900 bg-size-200 py-2 pr-3 text-sm transition-all duration-500 hover:bg-pos-100 hover:text-neutral-100`}
+        isActive ? "bg-pos-100 text-gray-100" : ""
+      } group flex w-28 rounded-xl bg-gradient-to-r from-gray-950 via-gray-950 to-gray-900 bg-size-200 py-2 pr-3 text-sm transition-all duration-500 hover:bg-pos-100 hover:text-gray-100`}
       href={sectionLink}
     >
       <div

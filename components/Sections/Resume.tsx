@@ -10,17 +10,18 @@ const Resume = () => {
     <div className="py-16 lg:py-24">
       <section
         id="about"
-        className="mb-32 scroll-mt-24 text-sm leading-relaxed text-neutral-400"
+        className="mb-32 scroll-mt-24 text-sm leading-relaxed text-gray-400"
       >
-        <div className="sticky top-0 mb-5 bg-neutral-950 py-4 text-xl font-bold text-neutral-100 opacity-90 lg:hidden lg:py-0">
+        <div className="sticky top-0 mb-5 bg-gray-950 py-4 text-xl font-bold text-gray-100 opacity-90 lg:hidden lg:py-0">
           <h1>About</h1>
         </div>
         <p className="mb-6">
-          👋 Hey there! I'm Ramonito, a recent Mechatronics Engineering graduate
-          from the
-          <span className="text-neutral-100"> University of Waterloo</span>. I
-          have a passion for learning new things about software and a love for
-          creating fun, efficient, and aesthetically pleasing apps.
+          👋 Hey there! I&aposm Ramonito, a recent Mechatronics Engineering
+          graduate from the
+          <span className="text-gray-100"> University of Waterloo</span>. I have
+          a passion for learning new things about software and a love for
+          creating fun, efficient, and aesthetically pleasing solutions to
+          problems.
         </p>
 
         <p className="mb-6">
@@ -30,9 +31,9 @@ const Resume = () => {
       </section>
       <section
         id="experience"
-        className="mb-32 scroll-mt-24 leading-relaxed text-neutral-400"
+        className="mb-32 scroll-mt-24 leading-relaxed text-gray-400"
       >
-        <div className="sticky top-0 mb-5 bg-neutral-950 py-4 text-xl font-bold text-neutral-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-neutral-400 lg:opacity-100">
+        <div className="sticky top-0 mb-5 bg-gray-950 py-4 text-xl font-bold text-gray-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-gray-400 lg:opacity-100">
           <h1>Relevant Experience</h1>
         </div>
         <ExperienceCard
@@ -65,7 +66,7 @@ const Resume = () => {
           date="Sep - Dec 2020"
           position="Software Engineer Intern"
           description="Worked closely with UI teams and engineers to enhance and maintain our movie webstore application, 
-          taking the lead on the main updates to the user's downloads page."
+          taking the lead on the main updates to the user&aposs downloads page."
           skills={["Javascript", "HTML", "CSS", "PHP", "SQL", "Knockout.js"]}
         />
 
@@ -73,7 +74,7 @@ const Resume = () => {
       </section>
 
       <section id="projects" className="mb-32 scroll-mt-24">
-        <div className="sticky top-0 mb-5 bg-neutral-950 py-4 text-xl font-bold text-neutral-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-neutral-400 lg:opacity-100">
+        <div className="sticky top-0 mb-5 bg-gray-950 py-4 text-xl font-bold text-gray-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-gray-400 lg:opacity-100">
           <h1>Featured Projects</h1>
         </div>
         <ProjectCard
@@ -99,7 +100,7 @@ const Resume = () => {
           link="https://github.com/RCopJr/portfolio"
           description="This thoughtfully designed portfolio built to showcase my work while honing 
           my UI development and design skills."
-          skills={["React", "Tailwind", "Next.js"]}
+          skills={["React", "Tailwind", "Next.js", "Aceternity UI"]}
         />
 
         <ViewMoreAction
@@ -108,7 +109,7 @@ const Resume = () => {
         />
       </section>
       <section id="certifications" className="mb-32 scroll-mt-24">
-        <div className="sticky top-0 mb-5 bg-neutral-950 py-4 text-xl font-bold text-neutral-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-neutral-400 lg:opacity-100">
+        <div className="sticky top-0 mb-5 bg-gray-950 py-4 text-xl font-bold text-gray-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-gray-400 lg:opacity-100">
           <h1>Certifications</h1>
         </div>
         <CourseCard

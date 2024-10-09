@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <InitialMask />
-      <main className="mx-auto flex max-w-screen-xl flex-col px-6 sm:px-12 lg:grid lg:grid-cols-2 lg:gap-4 lg:px-24">
+      <main className="mx-auto flex max-w-screen-xl flex-col px-6 sm:px-12 lg:grid lg:grid-cols-2 lg:gap-16 lg:px-24">
         <ShootingStars className="fixed -z-10 motion-reduce:hidden" />
         <StarsBackground className="fixed -z-10 motion-reduce:hidden" />
         <Header />

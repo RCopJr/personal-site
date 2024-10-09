@@ -5,8 +5,9 @@ const Header = () => {
   return (
     <header className="flex flex-col justify-between py-16 lg:sticky lg:top-0 lg:h-screen lg:py-24">
       <div>
-        <h1 className="text-4xl font-bold text-slate-50 lg:text-5xl">
-          Ramonito Copreros
+        <h1 className="flex flex-row flex-wrap gap-3 text-4xl font-bold text-slate-50 lg:text-5xl">
+          <div>Ramonito</div>
+          <div>Copreros Jr</div>
         </h1>
         <h2 className="mt-4 text-lg font-bold text-slate-400 lg:text-xl">
           Frontend/Fullstack{" "}

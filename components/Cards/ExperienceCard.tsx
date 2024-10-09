@@ -9,16 +9,18 @@ const ExperienceCard = ({
   date = "",
   description = "",
   skills = [],
+  inViewThreshold = 0.55,
 }: {
   company: string;
   position: string;
   date: string;
   description: string;
   skills: string[];
+  inViewThreshold?: number;
 }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.3,
+    threshold: inViewThreshold,
   });
   return (
     <div

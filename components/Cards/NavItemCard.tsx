@@ -13,7 +13,7 @@ const NavItemCard = ({
     <a
       className={`${
         isActive ? "bg-pos-100 text-slate-50" : ""
-      } group flex w-28 rounded-xl bg-gradient-to-r from-slate-900 via-slate-900 to-slate-800 bg-size-200 py-2 pr-3 text-sm transition-all duration-500 hover:bg-pos-100 hover:text-slate-50 motion-reduce:transition-none`}
+      } group flex w-28 rounded-xl bg-gradient-to-r from-slate-900 via-slate-900 to-slate-800 bg-size-200 py-2 pr-3 text-sm transition-all duration-1000 hover:bg-pos-100 hover:text-slate-50 motion-reduce:transition-none`}
       href={sectionLink}
     >
       <div

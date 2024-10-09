@@ -80,15 +80,6 @@ const Resume = () => {
           <h1>Featured Projects</h1>
         </div>
         <ProjectCard
-          name="Portfolio"
-          alt="Portfolio site landing page view"
-          imageSrc={portfolioPic}
-          link="https://github.com/RCopJr/portfolio"
-          description="This thoughtfully developed portfolio built to showcase my work while honing 
-          my UI development and design skills."
-          skills={["React", "Tailwind", "Next.js", "Aceternity UI"]}
-        />
-        <ProjectCard
           name="Workout Tracker"
           alt="Mobile views of workout tracker app"
           imageSrc={workoutTrackerPic}
@@ -103,6 +94,15 @@ const Resume = () => {
           link="https://github.com/RCopJr/recipe-finder"
           description="A responsive web app for fetching recipes based on various search filters."
           skills={["MongoDB", "Express", "React", "Node.js"]}
+        />
+        <ProjectCard
+          name="Portfolio"
+          alt="Portfolio site landing page view"
+          imageSrc={portfolioPic}
+          link="https://github.com/RCopJr/portfolio"
+          description="This thoughtfully developed portfolio built to showcase my work while honing 
+        my UI development and design skills."
+          skills={["React", "Tailwind", "Next.js", "Aceternity UI"]}
         />
 
         <ViewMoreAction

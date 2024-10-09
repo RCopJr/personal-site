@@ -52,6 +52,7 @@ const Resume = () => {
             "Express",
             "React Native Track Player",
           ]}
+          inViewThreshold={0.3}
         />
 
         <ExperienceCard
@@ -70,6 +71,33 @@ const Resume = () => {
           description="Worked closely with UI teams and engineers to enhance and maintain our movie webstore application, 
           taking the lead on the main updates to the user's downloads page."
           skills={["Javascript", "HTML", "CSS", "PHP", "SQL", "Knockout.js"]}
+        />
+
+        <ExperienceCard
+          company="PerkinElmer"
+          date="Jan - April 2022"
+          position="Machine Learning Engineer Intern"
+          description="Led the integration of transfer learning within a project using
+PyTorch, a necessity for achieving incremental learning."
+          skills={["Python", "Pytorch", "Dash"]}
+        />
+
+        <ExperienceCard
+          company="Applied Brain Research"
+          date="May - Aug 2021"
+          position="Deep Learning Developer Intern"
+          description="Spearheaded the end-to-end machine learning development
+of auto-encoders using Keras, for trajectory prediction."
+          skills={["Python", "Keras", "Jupyter Notebook"]}
+        />
+
+        <ExperienceCard
+          company="Fugro"
+          date="Jan - May 2020"
+          position="Software Developer Intern"
+          description="Collaborated with a team to develop and improve a geo-data pavement analysis 
+          application, focusing on optimizing model inference and processing algorithms for improved efficiency."
+          skills={["C++", "Pytroch", "Python"]}
         />
 
         <ViewMoreAction text="View my full resume here" link="./resume.pdf" />

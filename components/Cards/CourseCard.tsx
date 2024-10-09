@@ -1,4 +1,6 @@
+"use client";
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import SkillBubble from "../SkillBubble";
 
 const CourseCard = ({
@@ -14,15 +16,20 @@ const CourseCard = ({
   date: string;
   skills: string[];
 }) => {
+  const { ref, inView } = useInView({
+    threshold: 0.3,
+    triggerOnce: true,
+  });
   return (
     <a
+      ref={ref}
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="transform-all duration-400 group mb-8 flex flex-col rounded-xl bg-gradient-to-r from-gray-800 via-gray-900 to-gray-950 bg-size-200 bg-pos-100 p-6 transition-all hover:scale-105 hover:bg-pos-0"
+      className={`${inView ? "translate-x-0 opacity-100" : "translate-x-[+50%] opacity-0"} group mb-8 flex flex-col rounded-xl bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 bg-size-200 bg-pos-100 p-6 transition-all duration-500 hover:bg-pos-0 motion-reduce:transition-none`}
     >
       <div className="mb-1 flex flex-wrap items-center justify-between text-lg">
-        <h1 className="flex items-center gap-2 text-lg font-bold text-gray-200">
+        <h1 className="flex items-center gap-2 text-lg font-bold text-slate-50">
           {title}
           <svg
             className="size-5"
@@ -37,7 +44,7 @@ const CourseCard = ({
 
         <h3 className="text-sm">{date}</h3>
       </div>
-      <h2 className="mb-4 text-lg font-bold text-gray-400">{platform}</h2>
+      <h2 className="mb-4 text-lg font-bold text-slate-400">{platform}</h2>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, index) => (
           <SkillBubble key={index} skill={skill} />

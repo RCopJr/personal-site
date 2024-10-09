@@ -5,28 +5,28 @@ const Header = () => {
   return (
     <header className="flex flex-col justify-between py-16 lg:sticky lg:top-0 lg:h-screen lg:py-24">
       <div>
-        <h1 className="text-4xl font-bold text-gray-100 lg:text-5xl">
+        <h1 className="text-4xl font-bold text-slate-50 lg:text-5xl">
           Ramonito Copreros
         </h1>
-        <h2 className="mt-4 text-lg font-bold text-gray-400 lg:text-xl">
+        <h2 className="mt-4 text-lg font-bold text-slate-400 lg:text-xl">
           Frontend/Fullstack{" "}
           <span className="animate-gradient-slow bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 bg-[length:200%_200%] bg-clip-text font-bold text-transparent">
             Software Engineer
           </span>
         </h2>
-        <p className="mt-4 max-w-xs text-lg text-gray-100">
+        <p className="mt-4 max-w-xs text-lg text-slate-50">
           Seeking full-time opportunities.
         </p>
         <NavBar />
       </div>
-      <div className="mt-8 flex gap-7 text-gray-400">
+      <div className="mt-8 flex gap-7 text-slate-400">
         <a
           href="https://github.com/RCopJr"
           target="_blank"
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 transition duration-500 hover:text-gray-100"
+            className="size-8 transition duration-500 hover:text-slate-50"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"
@@ -41,7 +41,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 transition duration-500 hover:text-gray-100"
+            className="size-8 transition duration-500 hover:text-slate-50"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -56,7 +56,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 transition duration-500 hover:text-gray-100"
+            className="size-8 transition duration-500 hover:text-slate-50"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -71,7 +71,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <svg
-            className="size-8 transition duration-500 hover:text-gray-100"
+            className="size-8 transition duration-500 hover:text-slate-50"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 384 512"

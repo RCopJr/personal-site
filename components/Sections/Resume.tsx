@@ -13,18 +13,17 @@ const Resume = () => {
     <div className="py-16 lg:py-24">
       <section
         id="about"
-        className="mb-32 scroll-mt-24 text-sm leading-relaxed text-gray-400"
+        className="mb-32 scroll-mt-24 text-sm leading-relaxed text-slate-400"
       >
-        <div className="sticky top-0 mb-5 bg-gray-950 py-4 text-xl font-bold text-gray-100 opacity-90 lg:hidden lg:py-0">
+        <div className="sticky top-0 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:hidden lg:py-0">
           <h1>About</h1>
         </div>
         <p className="mb-6">
           👋 Hey there! I&apos;m Ramonito, a recent Mechatronics Engineering
           graduate from the
-          <span className="text-gray-100"> University of Waterloo</span>. I have
-          a passion for learning new things about software and a love for
-          creating fun, efficient, and aesthetically pleasing solutions to
-          problems.
+          <span className="text-slate-50"> University of Waterloo</span>. I have
+          a passion for learning new aspects of software and enjoy creating
+          efficient, enjoyable, and visually appealing solutions to challenges.
         </p>
 
         <p className="mb-6">
@@ -34,9 +33,9 @@ const Resume = () => {
       </section>
       <section
         id="experience"
-        className="mb-32 scroll-mt-24 leading-relaxed text-gray-400"
+        className="mb-32 scroll-mt-24 leading-relaxed text-slate-400"
       >
-        <div className="sticky top-0 mb-5 bg-gray-950 py-4 text-xl font-bold text-gray-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-gray-400 lg:opacity-100">
+        <div className="sticky top-0 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-slate-400 lg:opacity-100">
           <h1>Relevant Experience</h1>
         </div>
         <ExperienceCard
@@ -77,7 +76,7 @@ const Resume = () => {
       </section>
 
       <section id="projects" className="mb-32 scroll-mt-24">
-        <div className="sticky top-0 mb-5 bg-gray-950 py-4 text-xl font-bold text-gray-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-gray-400 lg:opacity-100">
+        <div className="sticky top-0 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-slate-400 lg:opacity-100">
           <h1>Featured Projects</h1>
         </div>
         <ProjectCard
@@ -85,7 +84,7 @@ const Resume = () => {
           alt="Portfolio site landing page view"
           imageSrc={portfolioPic}
           link="https://github.com/RCopJr/portfolio"
-          description="This thoughtfully designed portfolio built to showcase my work while honing 
+          description="This thoughtfully developed portfolio built to showcase my work while honing 
           my UI development and design skills."
           skills={["React", "Tailwind", "Next.js", "Aceternity UI"]}
         />
@@ -112,7 +111,7 @@ const Resume = () => {
         />
       </section>
       <section id="certifications" className="mb-32 scroll-mt-24">
-        <div className="sticky top-0 mb-5 bg-gray-950 py-4 text-xl font-bold text-gray-100 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-gray-400 lg:opacity-100">
+        <div className="sticky top-0 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-slate-400 lg:opacity-100">
           <h1>Certifications</h1>
         </div>
         <CourseCard

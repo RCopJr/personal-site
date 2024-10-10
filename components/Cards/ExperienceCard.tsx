@@ -9,7 +9,7 @@ const ExperienceCard = ({
   date = "",
   description = "",
   skills = [],
-  inViewThreshold = 0.55,
+  inViewThreshold = 0.5,
 }: {
   company: string;
   position: string;
@@ -25,7 +25,7 @@ const ExperienceCard = ({
   return (
     <div
       ref={ref}
-      className={`${inView ? "translate-x-0 opacity-100" : "translate-x-[+50%] opacity-0"} mb-8 rounded-xl bg-gradient-to-r from-slate-800 to-slate-900 p-6 text-slate-400 transition-all duration-1000 motion-reduce:transition-none`}
+      className={`${inView ? "translate-x-0 opacity-100" : "translate-x-[+5%] opacity-0 lg:translate-x-[+18%] 2xl:translate-x-[+50%]"} mb-8 rounded-xl bg-gradient-to-r from-slate-800 to-slate-900 p-6 text-slate-400 transition-all duration-1000 motion-reduce:transition-none`}
     >
       <div className="mb-1 flex flex-wrap items-center justify-between text-lg">
         <h1 className="font-bold text-slate-50">{company}</h1>

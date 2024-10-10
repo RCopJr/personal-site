@@ -30,7 +30,7 @@ const ProjectCard = ({
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className={`${inView ? "translate-x-0 opacity-100" : "translate-x-[+50%] opacity-0"} group mb-8 flex gap-5 rounded-xl bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 bg-size-200 bg-pos-100 p-6 transition-all duration-1000 hover:bg-pos-0 motion-reduce:transition-none`}
+      className={`${inView ? "translate-x-0 opacity-100" : "translate-x-[+5%] opacity-0 lg:translate-x-[+18%] 2xl:translate-x-[+50%]"} group mb-8 flex gap-5 rounded-xl bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 bg-size-200 bg-pos-100 p-6 transition-all duration-1000 hover:bg-pos-0 motion-reduce:transition-none`}
     >
       <Image
         alt={alt}

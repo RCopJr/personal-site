@@ -7,7 +7,7 @@ const InitialMask = () => {
   return (
     <div
       ref={ref}
-      className={`${inView ? "opacity-0" : "opacity-100"} pointer-events-none fixed top-0 z-10 h-screen w-screen bg-slate-950 transition duration-1000 motion-reduce:transition-none`}
+      className={`${inView ? "opacity-0" : "opacity-100"} pointer-events-none fixed top-0 z-20 h-screen w-screen bg-slate-950 transition duration-1000 motion-reduce:transition-none`}
     ></div>
   );
 };

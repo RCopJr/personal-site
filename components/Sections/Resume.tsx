@@ -35,7 +35,7 @@ const Resume = () => {
         id="experience"
         className="mb-32 scroll-mt-24 leading-relaxed text-slate-400"
       >
-        <div className="sticky top-0 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-slate-400 lg:opacity-100">
+        <div className="sticky top-0 z-10 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-slate-400 lg:opacity-100">
           <h1>Relevant Experience</h1>
         </div>
         <ExperienceCard
@@ -104,7 +104,7 @@ of auto-encoders using Keras, for trajectory prediction."
       </section>
 
       <section id="projects" className="mb-32 scroll-mt-24">
-        <div className="sticky top-0 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-slate-400 lg:opacity-100">
+        <div className="sticky top-0 z-10 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-slate-400 lg:opacity-100">
           <h1>Featured Projects</h1>
         </div>
         <ProjectCard
@@ -139,7 +139,7 @@ of auto-encoders using Keras, for trajectory prediction."
         />
       </section>
       <section id="certifications" className="mb-32 scroll-mt-24">
-        <div className="sticky top-0 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-slate-400 lg:opacity-100">
+        <div className="sticky top-0 z-10 mb-5 bg-slate-900 py-4 text-xl font-bold text-slate-50 opacity-90 lg:relative lg:py-0 lg:text-lg lg:text-slate-400 lg:opacity-100">
           <h1>Certifications</h1>
         </div>
         <CourseCard

@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ramonito Copreros Jr | Software Engineer",
-  description: "Ramonito Copreros Jr's developer portfolio",
+  description: "Personal website of Ramonito Copreros Jr",
   openGraph: {
     title: "Ramonito Copreros Jr | Software Engineer",
     siteName: "Ramonito Copreros Jr | Software Engineer",
-    description: "Ramonito Copreros Jr's Personal Website",
+    description: "Personal website of Ramonito Copreros Jr",
     images: [
       {
         url: "https://ramonitocoprerosjr.vercel.app/thumbnail.png",

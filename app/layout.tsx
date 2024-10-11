@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Ramonito Copreros Jr's Personal Website",
     images: [
       {
-        url: "https://www.ramonitocoprerosjr.vercel.app/thumbnail.png",
+        url: "https://ramonitocoprerosjr.vercel.app/thumbnail.png",
         alt: "Ramonito Copreros Jr's Personal Website",
       },
     ],

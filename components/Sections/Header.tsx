@@ -25,6 +25,7 @@ const Header = () => {
           href="https://github.com/RCopJr"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visit my Github, opens in a new tab"
         >
           <svg
             className="size-8 transition duration-500 hover:text-slate-50"
@@ -40,6 +41,7 @@ const Header = () => {
           href="https://www.linkedin.com/in/rcoprerosjr/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visit my Linkedin, opens in a new tab"
         >
           <svg
             className="size-8 transition duration-500 hover:text-slate-50"
@@ -55,6 +57,7 @@ const Header = () => {
           href="https://www.instagram.com/ramonito.jr/?hl=en"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visit my Instagram, opens in a new tab"
         >
           <svg
             className="size-8 transition duration-500 hover:text-slate-50"
@@ -70,6 +73,7 @@ const Header = () => {
           href="https://www.strava.com/athletes/138075895"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visit my Strava, opens in a new tab"
         >
           <svg
             className="size-8 transition duration-500 hover:text-slate-50"
@@ -85,6 +89,7 @@ const Header = () => {
           href="mailto:rcoprerosjr@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Send me an email, opens default email application"
         >
           <svg
             className="size-8 transition duration-500 hover:text-slate-50"

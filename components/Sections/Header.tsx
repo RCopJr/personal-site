@@ -10,7 +10,7 @@ const Header = () => {
           <div>Copreros Jr</div>
         </h1>
         <h2 className="mt-4 text-lg font-bold text-slate-400 lg:text-xl">
-          Frontend/Fullstack{" "}
+          Frontend/Full-Stack{" "}
           <span className="animate-gradient-slow bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 bg-[length:200%_200%] bg-clip-text font-bold text-transparent">
             Software Engineer
           </span>

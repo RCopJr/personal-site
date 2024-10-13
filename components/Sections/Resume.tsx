@@ -23,12 +23,12 @@ const Resume = () => {
           graduate from the
           <span className="text-slate-50"> University of Waterloo</span>. I have
           a passion for learning new aspects of software and enjoy creating
-          efficient, enjoyable, and visually appealing solutions to challenges.
+          efficient, useful, and visually appealing solutions to challenges.
         </p>
 
         <p className="mb-6">
           Beyond coding, I enjoy exploring the world, diving into a new book,
-          hanging out with friends, and going out for runs!
+          hanging out with friends, bouldering, and going out for runs!
         </p>
         <ViewMoreAction text="View my full resume here" link="./resume.pdf" />
       </section>
@@ -62,7 +62,7 @@ const Resume = () => {
           position="Software Engineer Intern"
           description="Collaborated in a team to manage three large fitness websites featuring blogs, 
           products, and forums, while also helping develop a proof of concept to decouple the sites using Strapi as a CMS."
-          skills={["Wordpress", "PHP", "Typescript", "Strapi"]}
+          skills={["Wordpress", "PHP", "TypeScript", "Strapi"]}
           inViewThreshold={0.2}
         />
 
@@ -72,7 +72,7 @@ const Resume = () => {
           position="Software Engineer Intern"
           description="Worked closely with UI teams and engineers to enhance and maintain our movie webstore application, 
           taking the lead on the main updates to the user's downloads page."
-          skills={["Javascript", "HTML", "CSS", "PHP", "SQL", "Knockout.js"]}
+          skills={["JavaScript", "HTML", "CSS", "PHP", "SQL", "Knockout.js"]}
         />
 
         <ExperienceCard
@@ -81,7 +81,7 @@ const Resume = () => {
           position="Machine Learning Engineer Intern"
           description="Led the integration of transfer learning within a project using
 PyTorch, a necessity for achieving incremental learning."
-          skills={["Python", "Pytorch", "Dash"]}
+          skills={["Python", "PyTorch", "Dash"]}
         />
 
         <ExperienceCard
@@ -99,7 +99,7 @@ of auto-encoders using Keras, for trajectory prediction."
           position="Software Developer Intern"
           description="Collaborated with a team to develop and improve a geo-data pavement analysis 
           application, focusing on optimizing model inference and processing algorithms for improved efficiency."
-          skills={["C++", "Pytroch", "Python"]}
+          skills={["C++", "PyTroch", "Python"]}
         />
       </section>
 
@@ -130,7 +130,7 @@ of auto-encoders using Keras, for trajectory prediction."
           link="https://github.com/RCopJr/portfolio"
           description="This thoughtfully developed portfolio built to showcase my work while honing 
         my UI development and design skills."
-          skills={["React", "Tailwind", "Next.js", "Aceternity UI"]}
+          skills={["React", "Tailwind CSS", "Next.js", "Aceternity UI"]}
         />
 
         <ViewMoreAction
@@ -147,7 +147,7 @@ of auto-encoders using Keras, for trajectory prediction."
           link="https://udemy-certificate.s3.amazonaws.com/pdf/UC-31a51522-7bba-4e8d-86e9-b4c31c59521f.pdf"
           platform="Udemy"
           date="2022"
-          skills={["HTML", "CSS", "Javascript", "Node.js", "React", "MongoDB"]}
+          skills={["HTML", "CSS", "JavaScript", "Node.js", "React", "MongoDB"]}
         />
         <CourseCard
           title="Machine Learning"

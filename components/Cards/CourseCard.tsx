@@ -17,7 +17,7 @@ const CourseCard = ({
   skills: string[];
 }) => {
   const { ref, inView } = useInView({
-    threshold: 0.3,
+    threshold: 0.8,
     triggerOnce: true,
   });
   return (

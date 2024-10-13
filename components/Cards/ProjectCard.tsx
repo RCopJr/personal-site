@@ -23,7 +23,7 @@ const ProjectCard = ({
   description: string;
   skills: string[];
 }) => {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.8 });
   return (
     <a
       ref={ref}

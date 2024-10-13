@@ -9,7 +9,7 @@ const ExperienceCard = ({
   date = "",
   description = "",
   skills = [],
-  inViewThreshold = 0.5,
+  inViewThreshold = 0.8,
 }: {
   company: string;
   position: string;

@@ -30,6 +30,7 @@ const Resume = () => {
           Beyond coding, I enjoy exploring the world, diving into a new book,
           hanging out with friends, and going out for runs!
         </p>
+        <ViewMoreAction text="View my full resume here" link="./resume.pdf" />
       </section>
       <section
         id="experience"
@@ -52,7 +53,7 @@ const Resume = () => {
             "Express",
             "React Native Track Player",
           ]}
-          inViewThreshold={0.3}
+          inViewThreshold={0.2}
         />
 
         <ExperienceCard
@@ -62,6 +63,7 @@ const Resume = () => {
           description="Collaborated in a team to manage three large fitness websites featuring blogs, 
           products, and forums, while also helping develop a proof of concept to decouple the sites using Strapi as a CMS."
           skills={["Wordpress", "PHP", "Typescript", "Strapi"]}
+          inViewThreshold={0.2}
         />
 
         <ExperienceCard
@@ -99,8 +101,6 @@ of auto-encoders using Keras, for trajectory prediction."
           application, focusing on optimizing model inference and processing algorithms for improved efficiency."
           skills={["C++", "Pytroch", "Python"]}
         />
-
-        <ViewMoreAction text="View my full resume here" link="./resume.pdf" />
       </section>
 
       <section id="projects" className="mb-32 scroll-mt-24">

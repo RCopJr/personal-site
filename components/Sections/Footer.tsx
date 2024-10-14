@@ -6,7 +6,7 @@ const Footer = () => {
       <div>
         Deployed with <span className="text-slate-50">Vercel</span>. Built with{" "}
         <span className="text-slate-50">Next.js</span>,{" "}
-        <span className="text-slate-50">Tailwind</span>, and{" "}
+        <span className="text-slate-50">Tailwind CSS</span>, and{" "}
         <span className="text-slate-50">Aceternity UI</span>.
       </div>
       <div>

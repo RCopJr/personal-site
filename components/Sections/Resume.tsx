@@ -86,7 +86,7 @@ const Resume = () => {
           description="Worked closely with UI teams and engineers to enhance and 
           maintain our movie webstore application, taking the lead on the main 
           updates to the user’s downloads page."
-          skills={["JavaScript", "HTML", "CSS", "PHP", "SQL", "Knockout.js"]}
+          skills={["JavaScript", "HTML5", "CSS3", "PHP", "SQL", "Knockout.js"]}
         />
 
         <ExperienceCard
@@ -141,11 +141,11 @@ of autoencoders using Keras, for trajectory prediction."
           skills={["React", "Node.js", "Express"]}
         />
         <ProjectCard
-          name="Portfolio"
-          alt="Portfolio site landing page view"
+          name="Personal Site"
+          alt="Personal site landing page view"
           imageSrc={portfolioPic}
           link="https://github.com/RCopJr/portfolio"
-          description="This thoughtfully developed portfolio built to showcase my 
+          description="This thoughtfully developed personal site built to showcase my 
           work while refining my UI development and design skills, with a focus on performance, 
           accessibility, aesthetics, and interaction design."
           skills={["React", "Next.js", "Tailwind CSS", "Aceternity UI"]}

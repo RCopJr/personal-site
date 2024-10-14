@@ -110,8 +110,9 @@ of autoencoders using Keras, for trajectory prediction."
           company="Fugro"
           date="Jan - May 2020"
           position="Software Developer Intern"
-          description="Collaborated with a team to develop and improve a geo-data pavement analysis 
-          application, focusing on optimizing model inference and processing algorithms for improved efficiency."
+          description="Collaborated with a team to develop and improve a geo-data 
+          pavement analysis application, focusing on optimizing model inference and 
+          processing algorithms for improved efficiency."
           skills={["PyTorch", "Python", "C++"]}
         />
       </section>
@@ -125,8 +126,8 @@ of autoencoders using Keras, for trajectory prediction."
           alt="Mobile views of workout tracker app"
           imageSrc={workoutTrackerPic}
           link="https://github.com/RCopJr/workout-tracker"
-          description="Building a mobile-friendly web clone of the Strong app using the MERN stack, incorporating 
-          React, Headless UI, and Tailwind CSS for well-styled, responsive UI components"
+          description="Building a mobile-friendly web clone of the Strong 
+          app using the MERN stack, featuring well-styled, responsive UI components."
           skills={["React", "Node.js", "Express", "MongoDB"]}
         />
         <ProjectCard
@@ -134,7 +135,8 @@ of autoencoders using Keras, for trajectory prediction."
           alt="Main page of recipe finder app"
           imageSrc={recipeFinderPic}
           link="https://github.com/RCopJr/recipe-finder"
-          description="A responsive web app utilizing a third-party API to fetch recipes based on various search filters."
+          description="A responsive web app utilizing a third-party API to 
+          fetch recipes based on various search filters."
           skills={["React", "Node.js", "Express"]}
         />
         <ProjectCard
@@ -142,9 +144,9 @@ of autoencoders using Keras, for trajectory prediction."
           alt="Portfolio site landing page view"
           imageSrc={portfolioPic}
           link="https://github.com/RCopJr/portfolio"
-          description="This thoughtfully developed portfolio built to showcase my work while refining 
-        my UI development and design skills, with a focus on performance, accessibility, aesthetics, and 
-        interaction design."
+          description="This thoughtfully developed portfolio built to showcase my 
+          work while refining my UI development and design skills, with a focus on performance, 
+          accessibility, aesthetics, and interaction design."
           skills={["React", "Next.js", "Tailwind CSS", "Aceternity UI"]}
         />
 

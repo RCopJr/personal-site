@@ -21,14 +21,19 @@ const Resume = () => {
         <p className="mb-6">
           👋 Hey there! I&apos;m Ramonito, a recent Mechatronics Engineering
           graduate from the
-          <span className="text-slate-50"> University of Waterloo</span>. I have
-          a passion for learning new aspects of software and enjoy creating
-          efficient, useful, and visually appealing solutions to challenges.
+          <span className="text-slate-50"> University of Waterloo</span>. I am
+          passionate about learning new aspects of software development and
+          enjoy creating <span className="text-slate-50">engaging</span>,{" "}
+          <span className="text-slate-50">high-performance</span>,{" "}
+          <span className="text-slate-50">accessible</span>, and{" "}
+          <span className="text-slate-50">visually appealing</span> solutions to
+          challenges.
         </p>
 
         <p className="mb-6">
           Beyond coding, I enjoy exploring the world, diving into a new book,
-          hanging out with friends, bouldering, and going out for runs!
+          spending quality time with friends and family, bouldering, and going
+          out for runs!
         </p>
         <ViewMoreAction text="View my full resume here" link="./resume.pdf" />
       </section>
@@ -43,9 +48,9 @@ const Resume = () => {
           company="Audioworks"
           date="May - Aug 2023"
           position="Web & Mobile Developer Intern"
-          description="Led projects to enhance and develop core features, 
-          including an interactive music player on the mobile app and its 
-          integration with paginated user feeds for our social media platform, Soundsunite."
+          description="Led projects to enhance and develop core features, including an 
+          interactive music player on the mobile app and its integration with paginated 
+          user feeds for our social media platform, Soundsunite."
           skills={[
             "React",
             "React Native",
@@ -60,9 +65,16 @@ const Resume = () => {
           company="Verticalscope"
           date="Sep - Dec 2022"
           position="Software Engineer Intern"
-          description="Collaborated in a team to manage three large fitness websites featuring blogs, 
-          products, and forums, while also helping develop a proof of concept to decouple the sites using Strapi as a CMS."
-          skills={["Wordpress", "PHP", "TypeScript", "Strapi"]}
+          description="Collaborated in a team to manage three large fitness websites 
+          featuring blogs, products, and forums while also helping develop a proof 
+          of concept to decouple the sites using Strapi as a CMS."
+          skills={[
+            "WordPress",
+            "PHP",
+            "TypeScript",
+            "Strapi",
+            "Google Cloud Platform",
+          ]}
           inViewThreshold={0.2}
         />
 
@@ -70,8 +82,9 @@ const Resume = () => {
           company="Kaleidescape"
           date="Sep - Dec 2020"
           position="Software Engineer Intern"
-          description="Worked closely with UI teams and engineers to enhance and maintain our movie webstore application, 
-          taking the lead on the main updates to the user's downloads page."
+          description="Worked closely with UI teams and engineers to enhance and 
+          maintain our movie webstore application, taking the lead on the main 
+          updates to the user’s downloads page."
           skills={["JavaScript", "HTML", "CSS", "PHP", "SQL", "Knockout.js"]}
         />
 
@@ -89,7 +102,7 @@ PyTorch, a necessity for achieving incremental learning."
           date="May - Aug 2021"
           position="Deep Learning Developer Intern"
           description="Spearheaded the end-to-end machine learning development
-of auto-encoders using Keras, for trajectory prediction."
+of autoencoders using Keras, for trajectory prediction."
           skills={["Python", "Keras", "Jupyter Notebook"]}
         />
 
@@ -99,7 +112,7 @@ of auto-encoders using Keras, for trajectory prediction."
           position="Software Developer Intern"
           description="Collaborated with a team to develop and improve a geo-data pavement analysis 
           application, focusing on optimizing model inference and processing algorithms for improved efficiency."
-          skills={["C++", "PyTroch", "Python"]}
+          skills={["PyTorch", "Python", "C++"]}
         />
       </section>
 
@@ -112,29 +125,31 @@ of auto-encoders using Keras, for trajectory prediction."
           alt="Mobile views of workout tracker app"
           imageSrc={workoutTrackerPic}
           link="https://github.com/RCopJr/workout-tracker"
-          description="Working on a mobile-friendly web clone of the Strong app."
-          skills={["MongoDB", "Express", "React", "Node.js"]}
+          description="Building a mobile-friendly web clone of the Strong app using the MERN stack, incorporating 
+          React, Headless UI, and Tailwind CSS for well-styled, responsive UI components"
+          skills={["React", "Node.js", "Express", "MongoDB"]}
         />
         <ProjectCard
           name="Recipe Finder"
           alt="Main page of recipe finder app"
           imageSrc={recipeFinderPic}
           link="https://github.com/RCopJr/recipe-finder"
-          description="A responsive web app for fetching recipes based on various search filters."
-          skills={["MongoDB", "Express", "React", "Node.js"]}
+          description="A responsive web app utilizing a third-party API to fetch recipes based on various search filters."
+          skills={["React", "Node.js", "Express"]}
         />
         <ProjectCard
           name="Portfolio"
           alt="Portfolio site landing page view"
           imageSrc={portfolioPic}
           link="https://github.com/RCopJr/portfolio"
-          description="This thoughtfully developed portfolio built to showcase my work while honing 
-        my UI development and design skills."
-          skills={["React", "Tailwind CSS", "Next.js", "Aceternity UI"]}
+          description="This thoughtfully developed portfolio built to showcase my work while refining 
+        my UI development and design skills, with a focus on performance, accessibility, aesthetics, and 
+        interaction design."
+          skills={["React", "Next.js", "Tailwind CSS", "Aceternity UI"]}
         />
 
         <ViewMoreAction
-          text="Checkout my github for more!"
+          text="Checkout my GitHub for more!"
           link="https://github.com/RCopJr"
         />
       </section>
@@ -147,7 +162,14 @@ of auto-encoders using Keras, for trajectory prediction."
           link="https://udemy-certificate.s3.amazonaws.com/pdf/UC-31a51522-7bba-4e8d-86e9-b4c31c59521f.pdf"
           platform="Udemy"
           date="2022"
-          skills={["HTML", "CSS", "JavaScript", "Node.js", "React", "MongoDB"]}
+          skills={[
+            "React",
+            "Node.js",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "MongoDB",
+          ]}
         />
         <CourseCard
           title="Machine Learning"

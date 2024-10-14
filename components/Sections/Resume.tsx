@@ -158,7 +158,7 @@ of autoencoders using Keras, for trajectory prediction."
           <h1>Certifications</h1>
         </div>
         <CourseCard
-          title="The Complete Web Development Bootcamp"
+          title="Web Development Bootcamp"
           link="https://udemy-certificate.s3.amazonaws.com/pdf/UC-31a51522-7bba-4e8d-86e9-b4c31c59521f.pdf"
           platform="Udemy"
           date="2022"

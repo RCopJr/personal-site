@@ -54,8 +54,9 @@ const Resume = () => {
           skills={[
             "React",
             "React Native",
-            "Node",
+            "Node.js",
             "Express",
+            "TypeScript",
             "React Native Track Player",
           ]}
           inViewThreshold={0.2}
@@ -113,7 +114,7 @@ of autoencoders using Keras, for trajectory prediction."
           description="Collaborated with a team to develop and improve a geo-data 
           pavement analysis application, focusing on optimizing model inference and 
           processing algorithms for improved efficiency."
-          skills={["PyTorch", "Python", "C++"]}
+          skills={["Python", "PyTorch", "C++"]}
         />
       </section>
 

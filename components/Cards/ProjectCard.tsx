@@ -38,7 +38,7 @@ const ProjectCard = ({
         src={imageSrc}
       />
       <div>
-        <h1 className="mb-3 flex items-center gap-2 text-lg font-bold text-slate-50">
+        <h1 className="mb-3 flex items-center gap-2 text-base text-slate-50">
           {name}
           <svg
             className="size-5"

@@ -5,18 +5,19 @@ const Header = () => {
   return (
     <header className="flex flex-col justify-between py-16 lg:sticky lg:top-0 lg:h-screen lg:py-24">
       <div>
-        <h1 className="flex flex-row flex-wrap gap-3 text-4xl font-bold text-slate-50 lg:text-5xl">
+        <h1 className="flex flex-row flex-wrap gap-3 text-4xl font-semibold text-slate-50 lg:text-5xl">
           <div>Ramonito</div>
           <div>Copreros Jr</div>
         </h1>
-        <h2 className="mt-4 text-lg font-bold text-slate-400 lg:text-xl">
-          Frontend/Full-Stack{" "}
-          <span className="animate-gradient-slow bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 bg-[length:200%_200%] bg-clip-text font-bold text-transparent">
+        <h2 className="mt-4 text-lg text-slate-50 lg:text-xl">
+          Full-Stack{" "}
+          <span className="animate-gradient-slow bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 bg-[length:200%_200%] bg-clip-text text-transparent">
             Software Engineer
           </span>
         </h2>
-        <p className="mt-4 max-w-xs text-lg text-slate-50">
-          Seeking full-time opportunities.
+        <p className="mt-4 max-w-sm text-sm leading-relaxed text-slate-400">
+          Creating intuitive, aesthetic, and useful web experiences primarily in
+          Next.js, React, PHP, TypeScript, and SQL.
         </p>
         <NavBar />
       </div>

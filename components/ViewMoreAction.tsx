@@ -14,7 +14,7 @@ const ViewMoreAction = ({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="flex flex-row items-center gap-2 font-bold">
+      <div className="flex flex-row items-center gap-2 text-sm">
         {text}
         <svg
           className="size-5 hover:text-slate-50"

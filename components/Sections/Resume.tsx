@@ -52,7 +52,7 @@ const Resume = () => {
         </div>
         <ExperienceCard
           company="Ontario Virtual School"
-          date="Mar 2025 - Present"
+          date="Mar 2025 - Now"
           position="Full-Stack Developer"
           description="Developing and enhancing our core
           learning management system, while also leading the creation of a new web application 

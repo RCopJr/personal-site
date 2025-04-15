@@ -52,9 +52,9 @@ const Resume = () => {
         </div>
         <ExperienceCard
           company="Ontario Virtual School"
-          date="Mar 2025 - Now"
+          date="Mar 2025 - Now  "
           position="Full-Stack Developer"
-          description="Developing and enhancing our core
+          description="Developing and enhancing our
           learning management system, while also leading the creation of a new web application 
           aimed at improving student opportunities and outcomes."
           skills={[

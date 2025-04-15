@@ -17,7 +17,7 @@ const Header = () => {
         </h2>
         <p className="mt-4 max-w-sm text-sm leading-relaxed text-slate-400">
           Creating intuitive, aesthetic, and useful web experiences primarily in
-          Next.js, React, PHP, TypeScript, and SQL.
+          Next.js, React, PHP, TypeScript, and SQL
         </p>
         <NavBar />
       </div>

@@ -67,7 +67,7 @@ const Resume = () => {
             "MySQL",
             "PostgreSQL",
             "Docker",
-            "S3",
+            "AWS S3",
           ]}
           inViewThreshold={0.2}
         />

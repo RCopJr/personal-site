@@ -19,7 +19,7 @@ const Resume = () => {
           <h1>About</h1>
         </div>
         <p className="mb-6">
-          👋 Hey there! I&apos;m Ramonito, a University of Waterloo graduate and
+          👋 Hey there! I&apos;m Ramonito, a University of Waterloo engineering graduate and
           Full-Stack Software Engineer. I am passionate about learning new
           aspects of software development and enjoy creating{" "}
           <span className="text-slate-50">engaging</span>,{" "}
